@@ -118,7 +118,6 @@ def scraper(link, user_agent, injected, show_maximum_number_of_image_slider, max
     os.makedirs(f"driver", exist_ok=True)
     
     driver_path = os.path.join(cwd, 'driver', 'chromedriver.exe')
-    print(driver_path   )
     service = Service(executable_path='C:\Program Files\Chrome Driver\chromedriver.exe',)
     driver = webdriver.Chrome(service=service, options=options)
     #driver = webdriver.Chrome(executable_path=driver_path, options=options)
