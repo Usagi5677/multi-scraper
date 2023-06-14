@@ -31,7 +31,7 @@ Before using the image scraper, please make sure you have the following prerequi
 - Python 3.x installed on your system
 - Chrome browser (if not using headless option, ensure that Chrome is closed)
 - Google Chrome Driver compatible with your Chrome browser version
-- Download the appropriate Chrome Driver from [https://sites.google.com/a/chromium.org/chromedriver/downloads](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+- Download the appropriate Chrome Driver from [https://sites.google.com/chromium.org/driver/?pli=1](https://sites.google.com/chromium.org/driver/?pli=1)
 
 To install the required Python packages, run the following command:
 
