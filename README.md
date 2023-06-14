@@ -3,7 +3,7 @@ scrapes files (jpg, png, gif, webm) from website
 
 <div align="center">
 
-  [<img src="readme_files/gradio.svg" alt="gradio" width=300>](https://gradio.app)<br>
+  [<img src="gradio.svg" alt="gradio" width=300>](https://gradio.app)<br>
   <em>Build & share delightful machine learning apps easily</em>
 
   [![gradio-backend](https://github.com/gradio-app/gradio/actions/workflows/backend.yml/badge.svg)](https://github.com/gradio-app/gradio/actions/workflows/backend.yml)
@@ -31,7 +31,9 @@ Before using the image scraper, please make sure you have the following prerequi
 - Python 3.x installed on your system
 - Chrome browser (if not using headless option, ensure that Chrome is closed)
 - Google Chrome Driver compatible with your Chrome browser version
-- Download the appropriate Chrome Driver from [https://sites.google.com/a/chromium.org/chromedriver/downloads](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+- Download the appropriate Chrome Driver from [https://sites.google.com/chromium.org/driver/?pli=1](https://sites.google.com/chromium.org/driver/?pli=1)
+- Extract the Chrome Driver executable file from the downloaded archive.
+- Move the Chrome Driver executable file to the "driver" folder within the project directory.
 
 To install the required Python packages, run the following command:
 
@@ -63,6 +65,7 @@ The script provides several options that can be specified via command-line argum
 
 - `--pause`: Enable this option to introduce a delay (in seconds) between opening each URL and downloading each file. This can be useful to prevent excessive requests to the website. By default, there is no pause between requests.
 
+- `--user-agent`: Specify your user agent string. Some websites require a specific user agent to access their content. To find your user agent, visit https://www.whatismybrowser.com/detect/what-is-my-user-agent/ and copy the user agent string. Paste the user agent string into the app GUI's input field called "User Agent".
 
 ## Gallery
 
