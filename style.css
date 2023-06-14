@@ -1,0 +1,95 @@
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+#scraper_checkboxes {
+  gap: 0;
+  padding: 0;
+}
+#scraper_checkboxes,
+#img2img_checkboxes {
+  margin-left: 0em;
+  background: none;
+}
+#scraper_checkboxes > div,
+#img2img_checkboxes > div {
+  flex: 0;
+  white-space: nowrap;
+  min-width: auto;
+  border-width: 0;
+  box-shadow: none;
+  background: none;
+}
+#link_textbox {
+  border-width: 0;
+  box-shadow: none;
+  background: none;
+}
+
+#scraper_maximum_number_of_image_row > div {
+  border-width: 0;
+  box-shadow: none;
+  background: none;
+  overflow: visible;
+}
+#scraper_maximum_number_of_image {
+  background: none;
+  overflow: visible;
+}
+.head > label:nth-child(1) > span:nth-child(1) {
+  position: absolute;
+  top: -0.7em;
+  line-height: 1.2em;
+  padding: 0;
+  margin: 0 0.5em;
+
+  z-index: 300;
+}
+#scraper_maximum_number_of_image input.svelte-jigama:nth-child(2) {
+  position: absolute;
+  right: 0.5em;
+  top: -0.8em;
+  z-index: 400;
+  width: 6em;
+}
+#scraper_type_checkboxes > div {
+  border-width: 0;
+  box-shadow: none;
+}
+#type_checkboxes {
+  padding: 0;
+}
+#type_checkboxes span {
+  padding-left: 10px;
+}
+#type_checkboxes label {
+  border-width: 0;
+  box-shadow: none;
+  background: none;
+}
+#type_checkboxes,
+#scraper_type_checkboxes > div {
+  background: none;
+}
+
+#scraper_pause > div {
+  overflow: visible;
+  border-width: 0;
+  box-shadow: none;
+  background: none;
+}
+#scraper_pause > div > div {
+  padding: 0;
+  padding-top: 20px;
+  background: none;
+}
+#scraper_pause span {
+  margin-left: 0;
+  margin-top: 10px;
+  background: none;
+  box-shadow: none;
+  border-width: 0;
+  padding:0
+}
+#darkmode {
+  min-width: fit-content !important;
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
