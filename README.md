@@ -3,7 +3,7 @@ scrapes files (jpg, png, gif, webm) from website
 
 <div align="center">
 
-  [<img src="readme_files/gradio.svg" alt="gradio" width=300>](https://gradio.app)<br>
+  [<img src="gradio.svg" alt="gradio" width=300>](https://gradio.app)<br>
   <em>Build & share delightful machine learning apps easily</em>
 
   [![gradio-backend](https://github.com/gradio-app/gradio/actions/workflows/backend.yml/badge.svg)](https://github.com/gradio-app/gradio/actions/workflows/backend.yml)
