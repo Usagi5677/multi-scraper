@@ -65,6 +65,7 @@ The script provides several options that can be specified via command-line argum
 
 - `--pause`: Enable this option to introduce a delay (in seconds) between opening each URL and downloading each file. This can be useful to prevent excessive requests to the website. By default, there is no pause between requests.
 
+- `--user-agent`: Specify your user agent string. Some websites require a specific user agent to access their content. To find your user agent, visit https://www.whatismybrowser.com/detect/what-is-my-user-agent/ and copy the user agent string. Paste the user agent string into the app GUI's input field called "User Agent".
 
 ## Gallery
 
