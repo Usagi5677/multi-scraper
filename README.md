@@ -24,6 +24,9 @@ scrapes files (jpg, png, gif, webm) from website
 
 This Python script allows you to scrape images from various websites such as Instagram, Reddit, 4channel, Warosu, and Desuarchive. The script uses the Chrome browser for scraping and requires certain dependencies to be installed.
 
+## Demo
+https://github.com/Usagi88/multi-scraper/assets/65016084/1bccc54e-85b7-453d-b88a-23f77a004dc1
+
 ## Installation
 
 Before using the image scraper, please make sure you have the following prerequisites:
